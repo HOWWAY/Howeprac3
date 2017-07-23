@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Howeprac2</title>
+
+    <link href="css/styleshit2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+    <img class="bg" src="images/sdo90.jpg">
+    <img class="bg2" src="images/sdo91.png"> 
+    <div id="h1"> Cyber Agony </div>
+  <div class="threesixty" data-path="images/rotation/{index}.png" data-count="24">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.threesixty.js"></script>
+
+    <script>
+      $(document).ready(function(){
+
+           var $threeSixty = $('.threesixty');
+
+           $threeSixty.threeSixty({
+               dragDirection: 'horizontal', // horizontal OR vertical
+               useKeys: true, // true OR false
+               draggable: true // true OR false
+            });
+
+      });
+    </script>
+    
+    </div>
+
+
+  </body>
+</html>

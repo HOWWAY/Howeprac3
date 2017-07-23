@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	width: auto;
+	height: auto;
+  text-align: center;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  margin-left: -512px;
+}
+
+.bg2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  margin-left: -512px;
+  pointer-events: none;
+}
+
+.container {
+  width: 1024px;
+  height: auto;
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+}
+
+#h1 {
+	font-size: 36px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    text-align: center;
+    margin: 450px 0px 0px 375px;
+}
+
+
